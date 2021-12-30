@@ -3,10 +3,6 @@
 
 mensaje='pyton es el mejor lenguaje del mundo'
 
-letras=[]
-
-for i in mensaje:
-    letras.append(i)
-
-print(letras)
+letras2=[i for i in mensaje]   
+print(letras2)
 
